@@ -1,38 +1,45 @@
-# haro-family-photography-website
 
-## Style Guide
+# Family Photography Campaign - 2025  
 
-## Colors
+Welcome to my photography repository! I'm excited to incorporate new techniques as I build this website. The goal is simple: to showcase my family photography work and the experience I gained since 2018 when I began working for my first agency. Over the past year, I've been booking clients month-to-month, which has been quite a head ache lol. This website will inform interested clients about my prices, open dates and my personal photographic style from an editor's perspective.
 
-### Neutral Colors
+## About  
 
-- **White:** `$-clr-white: hsl(0 0% 100%);`
+In addition to simple descriptions of my services, I'm thrilled to showcase a few standout images from previous sessions.  
 
-### Orange Shades
+## Target Campaign Date
 
-- **Orange 400:** `$-clr-orange-400: hsl(8 62% 55%);`
-- **Orange 500:** `$-clr-orange-500: hsl(8 62% 35%);`
-
-### Brown Shades
-
-- **Brown 100:** `$-clr-brown-100: hsl(33 24% 92%);`
-- **Brown 200:** `$-clr-brown-200: hsl(33 24% 88%);`
-- **Brown 300:** `$-clr-brown-300: hsl(33 23% 69%);`
-- **Brown 400:** `$-clr-brown-400: hsl(22 31% 44%);`
-- **Brown 700:** `$-clr-brown-700: hsl(20 23% 23%);`
-- **Brown 800:** `$-clr-brown-800: hsl(18 23% 10%);`
+The upcoming campaign will run from **December 2024 through around March 2025**. I’ve carefully chosen six preferred locations for family photography, ensuring consistent colors and tones throughout all galleries.  
 
 ---
 
-### Winter Cooler Tone Colors
+## Developer Notes  
 
-- **Frost White:** `$-clr-frost-white: hsl(0 0% 98%);`
-- **Ice Blue 100:** `$-clr-ice-blue-100: hsl(210 70% 96%);`
-- **Ice Blue 200:** `$-clr-ice-blue-200: hsl(210 65% 85%);`
-- **Cool Blue 400:** `$-clr-cool-blue-400: hsl(200 50% 50%);`
-- **Deep Blue 700:** `$-clr-deep-blue-700: hsl(210 40% 30%);`
-- **Slate Gray:** `$-clr-slate-gray: hsl(220 20% 50%);`
+### Design System  
+
+- Implementing a **seven-in-one folder pattern** to organize SCSS for a cohesive design system.  
+- Utilizing SCSS features such as **mixins** for reusable, modular styling.  
+
+### Optimization  
+
+- **Vite** is used for build optimization and image processing, ensuring consistent load speeds for a content-heavy site.  
+
+### Deployment and Marketing  
+
+- **Netlify** is ideal for:  
+  - Managing marketing campaigns.  
+  - Handling forms.  
+  - Optimizing SEO.  
+  - Conducting A/B tests to refine user engagement.  
+
+### Asset Delivery  
+
+- **Cloudinary** will be used for efficient image and asset delivery to maintain high performance and visual quality.  
 
 ---
 
-> **Note:** The Winter Cooler Tone palette adds a frosty, serene look ideal for seasonal or cold-themed designs. Combine these colors with whites or muted browns for a harmonious winter aesthetic.
+### Pre release versions
+
+- 12/9/24
+
+MORE COMING SOON THANK YOU!
