@@ -3,7 +3,7 @@
 
 Welcome to my photography repository! I'm excited to incorporate new techniques as I build this website. The goal is simple: to showcase my family photography work and the experience I gained since 2018 when I began working for my first agency. Over the past year, I've been booking clients month-to-month, which has been quite a head ache lol. This website will inform interested clients about my prices, open dates and my personal photographic style from an editor's perspective.
 
-## About  
+## Showcase  
 
 In addition to simple descriptions of my services, I'm thrilled to showcase a few standout images from previous sessions.  
 
@@ -35,6 +35,10 @@ The upcoming campaign will run from **December 2024 through around March 2025**.
 ### Asset Delivery  
 
 - **Cloudinary** will be used for efficient image and asset delivery to maintain high performance and visual quality.  
+
+### Design
+
+- Figma
 
 ---
 
