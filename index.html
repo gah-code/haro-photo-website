@@ -2,23 +2,87 @@
 <html lang="en">
 
 <head>
+  <!-- Essential Meta Tags -->
   <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hero Photo</title>
+  <meta name="description"
+    content="Haro Family Photography offers professional family portraits in Gilroy, San Jose, Morgan Hill, Hollister, San Juan Bautista, and Palo Alto. Book your session today!" />
+  <meta name="keywords"
+    content="family photography, Gilroy photographer, San Jose photography, Morgan Hill portraits, Hollister family photos, San Juan Bautista photoshoots, Palo Alto photography" />
+  <meta name="author" content="Haro Family Photography" />
+
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Haro Family Photography | Serving Bay Area, Gilroy, and Surrounding Areas" />
+  <meta property="og:description"
+    content="Professional family photography in Gilroy, San Jose, Morgan Hill, Hollister, San Juan Bautista, and Palo Alto. Capture your memories today!" />
+  <meta property="og:image" content="https://haro-family-photography.com/images/og-image.jpg" />
+  <meta property="og:url" content="https://haro-family-photography.com/" />
+  <meta property="og:type" content="website" />
+
+  <!-- Twitter Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Haro Family Photography | Gilroy, San Jose & Beyond" />
+  <meta name="twitter:description"
+    content="Family portraits in picturesque and urban locations. Serving Gilroy, San Jose, Morgan Hill, Hollister, San Juan Bautista, and Palo Alto." />
+  <meta name="twitter:image" content="https://haro-family-photography.com/images/twitter-image.jpg" />
+
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://haro-family-photography.com/" />
+
+  <!-- Stylesheet -->
   <link rel="stylesheet" href="/sass/main.scss">
+
+  <!-- Schema Markup -->
+  <script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Haro Family Photography",
+    "image": "https://haro-family-photography.com/images/og-image.jpg",
+    "@id": "https://haro-family-photography.com/",
+    "url": "https://haro-family-photography.com/",
+    "telephone": "+1-123-456-7890",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "100 Palm Valley Blvd.",
+      "addressLocality": "San Jose",
+      "addressRegion": "CA",
+      "postalCode": "95123",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 37.0058,
+      "longitude": -121.5683
+    },
+    "areaServed": ["Gilroy", "San Jose", "Morgan Hill", "Hollister", "San Juan Bautista", "Palo Alto"],
+    "sameAs": [
+      "https://www.facebook.com/haro-family-photography",
+      "https://www.instagram.com/haro-family-photography"
+    ],
+    "description": "Professional family photography serving Gilroy, San Jose, Morgan Hill, Hollister, San Juan Bautista, and Palo Alto. Capture your family moments today!"
+  }
+  </script>
+
+  <title>Haro Family Photography | Gilroy, San Jose & Beyond</title>
 </head>
+
 
 <body>
   <header class="site-header">
     <div class="container">
       <div class="site-header__inner">
-        <img src="/logo.svg" alt="" class="logo">
-        <nav class="primary-navigation">
+        <!-- Accessible Logo -->
+        <a href="/" class="logo-link" aria-label="Haro Family Photography Home">
+          <img src="/logo.svg" alt="Haro Family Photography logo" class="logo" />
+        </a>
+
+        <!-- Navigation with SEO and Accessibility Improvements -->
+        <nav class="primary-navigation" aria-label="Main navigation">
           <ul class="nav flex-group">
-            <li><a href="#about">About us</a></li>
-            <li><a href="#hours">Hours</a></li>
-            <li><a href="#prices">Prices</a></li>
+            <li><a href="#about" class="nav-link">About Us</a></li>
+            <li><a href="#hours" class="nav-link">Hours</a></li>
+            <li><a href="#prices" class="nav-link">Prices</a></li>
           </ul>
         </nav>
       </div>

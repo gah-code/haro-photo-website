@@ -16,3 +16,12 @@ svg {
   display: block;
   max-width: 100%;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+:target {
+  scroll-margin-top: 70px;
+  /* Adjust based on your header height */
+}
