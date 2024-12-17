@@ -56,7 +56,7 @@
  * ------------------------------------- */
 .scroll-reveal {
  opacity: 0 !important; // Start hidden by default
- visibility: hidden;
+ visibility: visible;
  transform: translateY(20px); // Initial position offset
  transition: opacity 1s ease, transform 1s ease;
 }
