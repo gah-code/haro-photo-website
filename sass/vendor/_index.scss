@@ -55,7 +55,6 @@
  * Scroll Reveal Classes
  * ------------------------------------- */
 .scroll-reveal {
- opacity: 1 !important; // Start hidden by default
  visibility: visible !important;
  transform: translateY(20px); // Initial position offset
  transition: opacity 1s ease, transform 1s ease;
