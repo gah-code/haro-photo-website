@@ -52,10 +52,18 @@
 
 /* Scroll Reveal Classes */
 .scroll-reveal {
- opacity: 0;
+ opacity: 1 !important;
+ /* Fallback if JS is not running */
+ visibility: visible !important;
  /* Hidden until observed */
  transform: translateY(20px);
  /* Slight offset for initial position */
+}
+
+.animated {
+ opacity: 1;
+ transform: translateY(0);
+ transition: opacity 2s ease, transform 1s ease;
 }
 
 .animated.fade-in {
