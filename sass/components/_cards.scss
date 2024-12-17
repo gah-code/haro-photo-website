@@ -10,8 +10,28 @@
   line-height: $card-line-height;
   box-shadow: $card-shadow;
   border-radius: $card-border-radius;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
 
   &__heading {
     @include heading($card-heading-font-size, $card-heading-color-default);
+  }
+
+
+  /* Hover Effects */
+  &:hover {
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+    transform: translateY(-5px);
+  }
+
+  /* Scroll Reveal Animation */
+  opacity: 0;
+  transform: translateY(30px);
+  /* Initial state */
+  transition: opacity 0.8s ease,
+  transform 0.8s ease;
+
+  &.animated {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
