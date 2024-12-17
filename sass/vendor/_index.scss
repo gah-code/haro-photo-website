@@ -1,6 +1,8 @@
 @use "../abstracts/" as *;
 
-/* Keyframe Animations */
+/* -------------------------------------
+ * Keyframe Animations
+ * ------------------------------------- */
 @keyframes fadeIn {
  0% {
   opacity: 0;
@@ -49,56 +51,61 @@
  }
 }
 
-
-/* Scroll Reveal Classes */
+/* -------------------------------------
+ * Scroll Reveal Classes
+ * ------------------------------------- */
 .scroll-reveal {
- opacity: 1 !important;
- /* Fallback if JS is not running */
- visibility: visible !important;
- /* Hidden until observed */
- transform: translateY(20px);
- /* Slight offset for initial position */
+ opacity: 0; // Start hidden by default
+ visibility: hidden;
+ transform: translateY(20px); // Initial position offset
+ transition: opacity 1s ease, transform 1s ease;
 }
 
 .animated {
  opacity: 1;
+ visibility: visible;
  transform: translateY(0);
- transition: opacity 2s ease, transform 1s ease;
-}
 
-.animated.fade-in {
- animation: fadeIn 1s ease forwards;
-}
-
-.animated.slide-in-left {
- animation: slideInLeft 1s ease forwards;
-}
-
-.animated.slide-in-right {
- animation: slideInRight 1s ease forwards;
-}
-
-.animated.scale-in {
- animation: scaleIn 1s ease forwards;
-}
-
-
-.ab-content-a,
-.ab-content-b,
-.ab-content-location {
- padding: 2rem;
- background-color: $card-background-default;
- color: $card-color-default;
- border: 1px solid #ddd;
- border-radius: $card-border-radius;
- box-shadow: $card-shadow;
-
- h2 {
-  font-size: 2rem;
-  margin-bottom: 1rem;
+ &.fade-in {
+  animation: fadeIn 1s ease forwards;
  }
 
- p {
-  font-size: 1.2rem;
+ &.slide-in-left {
+  animation: slideInLeft 1s ease forwards;
+ }
+
+ &.slide-in-right {
+  animation: slideInRight 1s ease forwards;
+ }
+
+ &.scale-in {
+  animation: scaleIn 1s ease forwards;
+ }
+}
+
+/* -------------------------------------
+ * A/B Test Content Styles
+ * ------------------------------------- */
+.ab-content {
+
+ &-a,
+ &-b,
+ &-location {
+  padding: 2rem;
+  background-color: $card-background-default;
+  color: $card-color-default;
+  border: 1px solid #ddd;
+  border-radius: $card-border-radius;
+  box-shadow: $card-shadow;
+
+  h2 {
+   font-size: 2rem;
+   margin-bottom: 1rem;
+  }
+
+  p {
+   font-size: 1.2rem;
+   line-height: 1.5;
+  }
  }
 }
