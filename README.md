@@ -1,7 +1,9 @@
 
-# **Family Photography Campaign - 2025**  
+# **Family Photography Website Campaign - 2025**  
 
 Welcome to my photography repository! I'm excited to incorporate new techniques as I build this website. The goal is simple: to showcase my family photography work and the experience I gained since 2018 when I began working for my first agency. Over the past year, I've been booking clients month-to-month, which has been quite a headache lol. This website will inform interested clients about my prices, open dates, and my personal photographic style from an editor's perspective.
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7a54dbd4-26ad-4c27-8e75-8219302aba74/deploy-status)](https://app.netlify.com/sites/haro-photo/deploys)
 
 ---
 
